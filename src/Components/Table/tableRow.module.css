@@ -1,0 +1,48 @@
+.tableRowActionButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tableRowButton {
+    padding: var(--xxsmall-size) var(--small-size);
+    cursor: pointer;
+  }
+  
+  .tablerow.selected {
+    background-color: var(--disabled-bg);
+  }
+  
+  tr:last-child {
+    border-bottom: none;
+  }
+  
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+
+  .tableRowInput {
+    border: none;
+    outline: 0.5px solid var(--primary-outline);
+    border-radius: 5px;
+    padding: var(--xxsmall-size);
+  }
+  
+  .tableRowInput:focus {
+    border: none;
+    outline: 2px solid var(--primary-outline-focused);
+  }
+  
+  .icon {
+    font-size: var(--large-size);
+    display: flex;
+    align-items: center;
+  }
+  
+  .iconSave {
+    color: var(--primary-bg);
+  }
+  
+  .iconDelete {
+    color: var(--danger-bg);
+  }

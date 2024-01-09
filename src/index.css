@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+:root {
+
+  --skyblue: #0aa5e5;
+  --light-gray: #eeeeee;
+  --dark-gray: #808080;
+  --red: #dc143c;
+  --white: #ffffff;
+  --black: #000000;
+
+  --primary-text: var(--white);
+  --primary-bg: var(--skyblue);
+  --primary-bg-color: rgba(81, 249, 199, 0.8);
+  --primary-border: var(--dark-gray);
+  --primary-outline: var(--dark-gray);
+  --primary-outline-focused: var(--skyblue);
+  --primary-btn-outline: var(--skyblue);
+
+  --secondary-text: var(--skyblue);
+  --secondary-bg: var(--white);
+  --secondary-border: var(--light-gray);
+  --secondary-btn-outline: var(--skyblue);
+
+  --disabled-text: var(--dark-gray);
+  --disabled-bg: var(--light-gray);
+  --disabled-outline: var(--light-gray);
+
+  --danger-text: var(--red);
+  --danger-btn-text: var(--white);
+  --danger-outline: var(--red);
+  --danger-bg: var(--red);
+
+  --xxxsmall-size: 0.1rem;
+  --xxsmall-size: 0.2rem;
+  --xsmall-size: 0.3rem;
+  --small-size: 0.5rem;
+  --normal-size: 1rem;
+  --large-size: 1.2rem;
+  --xlarge-size: 1.3rem;
+  --xxlarge-size: 1.5rem;
+  --xxxlarge-size: 1.6rem;
+  --huge-size: 1.8rem;
+  --xxhuge-size: 2rem;
+  --xxxhuge-size: 2.2rem;
+  --mamoth-size: 2.5rem;
+}

@@ -1,0 +1,50 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: var(--xxhuge-size);
+  padding: var(--xxhuge-size) 0;
+}
+
+
+.deleteActionContainer {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--small-size);
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--xxlarge-size);
+  }
+}
+
+.deleteBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--danger-btn-text);
+  padding: var(--small-size) var(--normal-size);
+  background-color: var(--danger-bg);
+  border: none;
+  border-radius: 2rem;
+  outline: 1px solid var(--danger-outline);
+  cursor: pointer;
+  font-size: var(--normal-size);
+}
+
+.deleteBtn:disabled {
+  color: var(--disabled-text);
+  background-color: var(--disabled-bg);
+  border: none;
+  outline: 1px solid var(--disabled-outline);
+}
+
+.deleteBtn:disabled:hover {
+  cursor: not-allowed;
+}

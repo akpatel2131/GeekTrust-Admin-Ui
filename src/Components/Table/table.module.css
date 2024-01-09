@@ -1,0 +1,38 @@
+.tableWrapper {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+  }
+  
+  .empty {
+    min-height: 0;
+  }
+  
+  .table {
+      width: 80%;
+      margin: 0 auto;
+      border-spacing: 0;
+  }
+  
+  tr th {
+    text-align: start;
+    padding: var(--normal-size);
+    border-bottom: 1px solid var(--primary-border);
+  }
+  
+  tr td {
+      padding: var(--small-size) var(--normal-size);
+      border-bottom: 1px solid var(--secondary-border);
+      text-wrap: nowrap;
+  }
+  
+  tr td:nth-child(2),
+  tr td:nth-child(3),
+  tr td:nth-child(4) {
+    width: 25%;
+  }
+  
+  tr td:nth-child(4)::first-letter {
+    text-transform: capitalize;
+  }

@@ -1,0 +1,29 @@
+.alertContainer{
+    width: 90vw;
+    margin: 0 auto;
+    min-height: 60vh;
+  }
+  
+  .alertContainer,
+  .alertLoadingWrapper,
+  .alertText {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .alertLoadingWrapper {
+    gap: var(--small-size);
+  }
+  
+  .alertText {
+    font-size: var(--xxhuge-size);
+    color: var(--disabled-text);
+  }
+  
+  .error {
+    color: var(--danger-text);
+  }
